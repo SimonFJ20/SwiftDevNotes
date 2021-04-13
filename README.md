@@ -263,7 +263,7 @@ class ViewController: UIViewController {
 
 ## SwiftUI
 
-Really new, but Apple says this is the future for IOS
+Really new, but Apple says this is the future for IOS  
 Only runs on IOS 13+
 
 ### Boilerplate
