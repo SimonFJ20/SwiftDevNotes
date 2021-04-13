@@ -3,10 +3,6 @@
 
 ## Basics
 
-```swift
-
-```
-
 Swift is a type safe and type inferred language, with implicit type declaration.
 
 - Type safe: Keeps track of variable types, and the option to declare types explicitly `let name: Integer`
