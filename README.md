@@ -29,8 +29,8 @@ Swift is a type safe and type inferred language, with implicit type declaration.
 
 Swift writing dynamics is like JS: 
 - `;` are optional
-- Whitespace is prefference based, meaning code does not depend on it, except strings
-- Implicit types like js, allthough inferred
+- Whitespace is preference based, meaning code does not depend on it, except strings
+- Implicit types like js, although inferred
 - Syntax is javalike, like JS 
 
 ### Types
@@ -42,7 +42,7 @@ T = Type
 let name: Int = 123; // 16 bits/2 bytes in principle
 let name: Float = 1.13; // 32 bits/4 bytes in principle
 let name: Double = 1.23; // 64 bits/8 bytes in principle
-let name: String = "text"; // 8 bits/1 byte per char depends on the length in princliple
+let name: String = "text"; // 8 bits/1 byte per char depends on the length in principle
 let name: Bool = false; // 1 bit in principle
 ```
 
@@ -82,8 +82,6 @@ myDict["one"] == 1;
 myDict["four"]; // error
 myDict["four"] = 4;
 myDict["four"]; // no error
-
-
 ```
 
 ### Null type
@@ -100,6 +98,25 @@ if(let name = SomethingThatCanBeNil()) {
 let name: SomethingThatCanBeNil! = SomethingThatCanBeNil();
 ```
 
+### String Concentation
+
+```swift
+// string concentation
+let str1 = "Hello";
+let str2 = "World!";
+let combination = str1 + str2; //HelloWorld!
+
+// string formatting
+// javascript equivalent: `The combination of ${str1} and ${str2} is ${combination}!`
+print("The combination of \(str1) and \(str2) is \(combination)!"); //The combination of Hello and World! is HelloWorld!"
+
+// can also combine strings with += operator:
+var str1 = "Hello";
+let str2 = "World!";
+print(str1); //output=Hello
+str1 += str2;
+print(str1); //output=HelloWorld!
+```
 ### Functions
 
 ```swift
@@ -213,7 +230,7 @@ print("something \(name) something");
 
 ## UIKit
 
-For All IOS, may be deprecated in the future.
+For All iOS, may be deprecated in the future.
 
 ### Boilerplate
 
@@ -263,8 +280,8 @@ class ViewController: UIViewController {
 
 ## SwiftUI
 
-Really new, but Apple says this is the future for IOS  
-Only runs on IOS 13+
+Really new, but Apple says this is the future for iOS  
+Only runs on iOS 13+
 
 ### Boilerplate
 
