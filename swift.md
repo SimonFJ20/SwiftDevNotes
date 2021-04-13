@@ -1,6 +1,24 @@
 
 # Swift programming language
 
+- [Swift programming language](#swift-programming-language)
+  * [Basics](#basics)
+    + [Types](#types)
+    + [Variables](#variables)
+    + [Arrays](#arrays)
+    + [Dictionaries](#dictionaries)
+    + [Null type](#null-type)
+    + [Functions](#functions)
+    + [Switch Statements](#switch-statements)
+    + [For loops](#for-loops)
+    + [Do-While loop](#do-while-loop)
+    + [Classes](#classes)
+    + [STD Lib](#std-lib)
+  * [UIKit](#uikit)
+    + [Boilerplate](#boilerplate)
+  * [SwiftUI](#swiftui)
+    + [Boilerplate](#boilerplate-1)
+
 ## Basics
 
 Swift is a type safe and type inferred language, with implicit type declaration.
