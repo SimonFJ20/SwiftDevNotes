@@ -7,13 +7,15 @@
     + [Variables](#variables)
     + [Arrays](#arrays)
     + [Dictionaries](#dictionaries)
+    + [String concentation](#string-concentation)
     + [Null type](#null-type)
+
     + [Functions](#functions)
-    + [Switch Statements](#switch-statements)
+    + [Switch statements](#switch-statements)
     + [For loops](#for-loops)
     + [Do-While loop](#do-while-loop)
     + [Classes](#classes)
-    + [STD Lib](#std-lib)
+    + [STD lib](#std-lib)
   * [UIKit](#uikit)
     + [Boilerplate](#boilerplate)
   * [SwiftUI](#swiftui)
@@ -98,7 +100,7 @@ if(let name = SomethingThatCanBeNil()) {
 let name: SomethingThatCanBeNil! = SomethingThatCanBeNil();
 ```
 
-### String Concentation
+### String concentation
 
 ```swift
 // string concentation
@@ -135,7 +137,7 @@ let t3 = new T();
 let name: T = name(par1: t1, arg2: t2, t);
 ```
 
-### Switch Statements
+### Switch statements
 
 Switch statements break automatically.
 
@@ -220,7 +222,7 @@ let myInClass2 = MyInheritedClass(nt);
 
 ```
 
-### STD Lib
+### STD lib
 ```swift
 // js-console.log()
 print(string: String);
